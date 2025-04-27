@@ -1,0 +1,74 @@
+form {
+    display: inline-block;
+    place-items: center;
+    border: solid;
+    width: 500px;
+    height: 500px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+body {
+    place-items: center;
+    background: linear-gradient(rgb(10, 25, 233),rgb(0, 0, 0));
+}
+main {
+    place-items: center;
+    height: 600px;
+    width: 100%;
+    
+}
+#email , #date,#pass,#submit,#male,#female,#phone,#conti,#country{
+    margin-top: 15px;
+    border-radius: 15px;
+    border: none;
+}
+#date {
+    width:200px;
+}
+#pass{
+    width: 200px;
+}
+#submit {
+    margin-left: 11px;
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+#reset {
+    width: 200px;
+    height: 50px;
+    transition: 0.5s;
+}
+label {
+    font-weight: bolder;
+    margin-left: 10px;
+}
+#pop {
+    margin-top: 10px;
+    width: 90%;
+    height: 90%;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    border-radius: 15px;
+    
+    align-content: center;
+    background: rgba(219, 218, 218, 0.2);
+}
+#first , #second,#email,#pass,#phone,#date,#conti,#country {
+    height: 30px;
+}
+#conti{
+    width: 150px;
+}
+#reset {
+    margin-left: 20px;
+    border-radius: 15px;
+    border: none;
+}
+#submit:hover{
+    background: linear-gradient(whitesmoke,grey);
+}
+#reset:hover{
+    background: linear-gradient(whitesmoke,grey);
+}
